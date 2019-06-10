@@ -25,39 +25,30 @@ h1 {
 }
 
 .preview {
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 40vh;
   width: 100vw;
+  margin-bottom: 10px;
   overflow: hidden;
   position: relative;
-  margin-bottom: 10px;
 }
 
 .baku {
-  background-image: url("/images/baku.jpg");
-  background-size:cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url("../images/baku.jpg");
 }
 
 .london {
-  background-image: url("/images/london.png");
-  background-size:cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url("../images/london.png");
 }
 
 .madrid {
-  background-image: url("/images/madrid.jpg");
-  background-size:cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url("../images/madrid.jpg");
 }
 
 .rome {
-  background-image: url("/images/rome.jpg");
-  background-size:cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url("../images/rome.jpg");
 }
 
 
@@ -65,11 +56,9 @@ h1 {
 @media screen and (min-width: 575px){
   .preview {
     height: 250px;
-    max-width: 48vw;
-    overflow: hidden;
+    max-width: 47.25vw;
     float: left;
-    position: relative;
-    margin: 1vw;
+    margin: .5vw;
   }
 }
 
@@ -77,11 +66,9 @@ h1 {
 @media screen and (min-width: 991px){
   .preview {
     height: 25vh;
-    max-width: 19.5vw;
-    overflow: hidden;
+    max-width: 18vw;
     float: left;
-    position: relative;
-    margin: .25vw;
+    margin: .5vw;
   }
 
   .container {
